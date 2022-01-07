@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>John's Date and Time</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <script src="script.js"></script>
+
+    <script>
+      console.log("1st Javascript random John calls Math.random() " + Math.random());
+
+      let myTimerInterval = setInterval(updateDateTimeStamp, 1000);
+
+      console.log("3rd After setInterval calls Math.random() " + Math.random());
+    </script>
+
+    <div>
+      <text><center>Today's</center></text>
+    </div>
+    <br>
+    <div>
+      <label>Date :</label>
+      <Date id="dynamicDate">Dynamic Date here</Date>
+    </div>
+    <div>
+      <text>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and</text>
+    </div>
+    <div>
+      <label>Time :</label>
+      <Time id="dynamicTime">Dynamic Time here</Time>
+    </div>
+    <br>
+    <!-- section>
+      <button onclick="clearInterval(myTimerInterval)">Stop Clock</button>
+    </section -->
+
+    <script>
+       console.log("4th does it get here? random number ") + Math.random();
+    </script>
+  </body>
+</html>
